@@ -238,10 +238,6 @@ input[type=submit] {
   border: 0 none;
 }
 @media screen and (max-width: 980px) {
-  .work:nth-child(even) {
-    margin: 0;
-   
-  }
 
   .main-section {
     width: 50%;
@@ -261,11 +257,12 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
   .main-section {
     width: 100%;
-    margin: 0 15px 20px 15px;
+    margin-left:  15px;
+    margin-right: 15px;
   }
   .sidebar {
-    margin-left: 15px;
     float: left;
+    margin-left: 15px;
     max-width: 730px;
   } 
   .navContainer {
